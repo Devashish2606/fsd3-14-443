@@ -2,3 +2,12 @@ HTTP -> Hyper text tranfer protocol
 HTML -> Hyper text markup language
 CSS -> Cascade style sheet
 NPM -> Node package management
+
+Status Code:
+200 Ok
+201 Created
+400 Bad Request
+401 Unauthorised
+403 Forbidden
+404 Not Found
+500 Internal Server Error
