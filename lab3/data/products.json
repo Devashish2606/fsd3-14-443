@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "price": 69999,
+    "storage": "128GB",
+    "ram": "6GB",
+    "battery": "3349mAh",
+    "display": "6.1 inch",
+    "camera": "48MP",
+    "os": "iOS"
+  },
+  {
+    "id": 2,
+    "brand": "Samsung",
+    "model": "Galaxy S24",
+    "price": 74999,
+    "storage": "256GB",
+    "ram": "8GB",
+    "battery": "4000mAh",
+    "display": "6.2 inch",
+    "camera": "50MP",
+    "os": "Android"
+  },
+  {
+    "id": 3,
+    "brand": "OnePlus",
+    "model": "OnePlus 12",
+    "price": 64999,
+    "storage": "256GB",
+    "ram": "12GB",
+    "battery": "5400mAh",
+    "display": "6.82 inch",
+    "camera": "50MP",
+    "os": "Android"
+  },
+  {
+    "id": 4,
+    "brand": "Google",
+    "model": "Pixel 8",
+    "price": 59999,
+    "storage": "128GB",
+    "ram": "8GB",
+    "battery": "4575mAh",
+    "display": "6.2 inch",
+    "camera": "50MP",
+    "os": "Android"
+  },
+  {
+    "id": 5,
+    "brand": "Xiaomi",
+    "model": "14",
+    "price": 69999,
+    "storage": "512GB",
+    "ram": "12GB",
+    "battery": "4610mAh",
+    "display": "6.36 inch",
+    "camera": "50MP",
+    "os": "Android"
+  },
+  {
+    "id": 6,
+    "brand": "Nothing",
+    "model": "Phone 2",
+    "price": 44999,
+    "storage": "256GB",
+    "ram": "12GB",
+    "battery": "4700mAh",
+    "display": "6.7 inch",
+    "camera": "50MP",
+    "os": "Android"
+  },
+  {
+    "id": 7,
+    "brand": "Vivo",
+    "model": "V30 Pro",
+    "price": 45999,
+    "storage": "512GB",
+    "ram": "12GB",
+    "battery": "5000mAh",
+    "display": "6.78 inch",
+    "camera": "50MP",
+    "os": "Android"
+  },
+  {
+    "id": 8,
+    "brand": "Oppo",
+    "model": "Reno 11 Pro",
+    "price": 39999,
+    "storage": "256GB",
+    "ram": "12GB",
+    "battery": "4600mAh",
+    "display": "6.7 inch",
+    "camera": "50MP",
+    "os": "Android"
+  },
+  {
+    "id": 9,
+    "brand": "Realme",
+    "model": "GT 6",
+    "price": 42999,
+    "storage": "256GB",
+    "ram": "8GB",
+    "battery": "5500mAh",
+    "display": "6.78 inch",
+    "camera": "50MP",
+    "os": "Android"
+  },
+  {
+    "id": 10,
+    "brand": "Motorola",
+    "model": "Edge 50 Pro",
+    "price": 39999,
+    "storage": "256GB",
+    "ram": "12GB",
+    "battery": "4500mAh",
+    "display": "6.7 inch",
+    "camera": "50MP",
+    "os": "Android"
+  }
+]
