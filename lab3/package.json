@@ -4,8 +4,8 @@
   "description": "HTTP -> Hyper text tranfer protocol\r HTML -> Hyper text markup language\r CSS -> Cascade style sheet\r NPM -> Node package management",
   "main": "App.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon prg11.js"
+    "start": "node App.js",
+    "dev": "nodemon App.js"
   },
   "keywords": [],
   "author": "",

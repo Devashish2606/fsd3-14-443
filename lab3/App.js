@@ -1,7 +1,7 @@
 import http from "http";
 
 const server = http.createServer((req, res) =>{
-    res.end("<h2> Welcome to Server side <h2>");
+    res.end("<h2> SIH Internal <h2>");
 });
 
 /*server.on('request', (req,res)=>{
