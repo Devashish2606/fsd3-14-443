@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - MobileStore</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #172337;
+        }
+
+        header {
+            background: #131921;
+            color: white;
+            padding: 18px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #2874f0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 28px;
+        }
+
+        nav a:hover {
+            color: #2874f0;
+        }
+
+        .hero {
+            height: 320px;
+            background: linear-gradient(
+                rgba(19, 25, 33, 0.65),
+                rgba(19, 25, 33, 0.65)
+            ),
+            url("https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1600&q=80");
+
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .about {
+            padding: 60px 8%;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            background: white;
+        }
+
+        .about-image {
+            width: 50%;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .about-content {
+            width: 50%;
+        }
+
+        .about-content h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .about-content h2 span {
+            color: #2874f0;
+        }
+
+        .about-content p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .features {
+            padding: 50px 8%;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 30px;
+            margin-bottom: 35px;
+        }
+
+        .feature-container {
+            display: flex;
+            gap: 25px;
+        }
+
+        .feature {
+            background: white;
+            padding: 30px 20px;
+            flex: 1;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .feature .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .feature h3 {
+            margin-bottom: 12px;
+        }
+
+        .feature p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .stats {
+            background: #2874f0;
+            color: white;
+            padding: 45px 8%;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .stat h2 {
+            font-size: 35px;
+        }
+
+        .stat p {
+            margin-top: 8px;
+        }
+
+        footer {
+            background: #131921;
+            color: white;
+            padding: 40px 8%;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        footer h3 {
+            margin-bottom: 15px;
+        }
+
+        footer p,
+        footer a {
+            color: #bbb;
+            text-decoration: none;
+            line-height: 2;
+        }
+
+        footer a {
+            display: block;
+        }
+
+        .copyright {
+            border-top: 1px solid #333;
+            margin-top: 30px;
+            padding-top: 20px;
+            text-align: center;
+            color: #aaa;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 18px 20px;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 8px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .about {
+                flex-direction: column;
+                padding: 40px 20px;
+            }
+
+            .about-image,
+            .about-content {
+                width: 100%;
+            }
+
+            .feature-container {
+                flex-direction: column;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .footer-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Mobile<span>Store</span></div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Mobiles</a>
+            <a href="#">Offers</a>
+            <a href="about.html">About Us</a>
+            <a href="enquire.html">Enquire</a>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div>
+            <h1>About MobileStore</h1>
+            <p>Your trusted destination for the latest smartphones</p>
+        </div>
+    </section>
+
+
+    <section class="about">
+
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=900&q=80"
+                 alt="Smartphones">
+        </div>
+
+        <div class="about-content">
+            <h2>Welcome to <span>MobileStore</span></h2>
+
+            <p>
+                MobileStore is a modern online destination for smartphones,
+                accessories and mobile technology. We bring the latest devices
+                from popular brands together in one convenient place.
+            </p>
+
+            <p>
+                Our goal is to make smartphone shopping simple, transparent
+                and affordable. From budget-friendly phones to premium
+                flagship devices, we provide a wide range of choices.
+            </p>
+
+            <p>
+                We focus on genuine products, competitive prices, secure
+                payments and reliable customer service.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="features">
+
+        <h2>Why Choose Us?</h2>
+
+        <div class="feature-container">
+
+            <div class="feature">
+                <div class="icon">📱</div>
+                <h3>Latest Mobiles</h3>
+                <p>
+                    Explore smartphones from the latest generations and
+                    popular brands.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="icon">💰</div>
+                <h3>Best Prices</h3>
+                <p>
+                    Get competitive prices and exciting offers on selected
+                    smartphones.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="icon">🔒</div>
+                <h3>Secure Shopping</h3>
+                <p>
+                    Your payments and personal information are protected with
+                    secure technology.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="icon">🚚</div>
+                <h3>Fast Delivery</h3>
+                <p>
+                    We aim to provide fast and reliable delivery for every
+                    order.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="stats">
+
+        <div class="stat">
+            <h2>50K+</h2>
+            <p>Happy Customers</p>
+        </div>
+
+        <div class="stat">
+            <h2>100+</h2>
+            <p>Mobile Models</p>
+        </div>
+
+        <div class="stat">
+            <h2>20+</h2>
+            <p>Popular Brands</p>
+        </div>
+
+        <div class="stat">
+            <h2>24/7</h2>
+            <p>Customer Support</p>
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div>
+                <h3>MobileStore</h3>
+                <p>Your Next Phone Awaits</p>
+                <p>Latest smartphones at the best prices.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="#">Mobiles</a>
+                <a href="#">Offers</a>
+                <a href="about.html">About Us</a>
+            </div>
+
+            <div>
+                <h3>Customer Service</h3>
+                <a href="enquire.html">Enquire</a>
+                <a href="#">Track Order</a>
+                <a href="#">Returns</a>
+                <a href="#">FAQ</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 MobileStore. All Rights Reserved.
+        </div>
+
+    </footer>
+
+</body>
+</html>

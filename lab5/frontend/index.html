@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Store</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #131921;
+            color: white;
+            padding: 15px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .search {
+            background-color: white;
+            padding: 20px 50px;
+            text-align: center;
+        }
+
+        .search input {
+            width: 60%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .banner {
+            margin: 25px 50px;
+            padding: 50px;
+            background-color: #2874f0;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .banner h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .categories {
+            padding: 20px 50px;
+        }
+
+        .categories h2 {
+            margin-bottom: 20px;
+        }
+
+        .category-box {
+            display: flex;
+            gap: 20px;
+        }
+
+        .category {
+            background-color: white;
+            padding: 20px;
+            flex: 1;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .products {
+            padding: 20px 50px;
+        }
+
+        .products h2 {
+            margin-bottom: 20px;
+        }
+
+        .product-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background-color: white;
+            width: 220px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .product img {
+            width: 150px;
+            height: 180px;
+            object-fit: contain;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        button {
+            background-color: #ff9f00;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            margin-top: 30px;
+            background-color: #131921;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 15px 20px;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 10px;
+            }
+
+            .search {
+                padding: 20px;
+            }
+
+            .search input {
+                width: 100%;
+            }
+
+            .banner {
+                margin: 20px;
+                padding: 35px 15px;
+            }
+
+            .categories,
+            .products {
+                padding: 20px;
+            }
+
+            .category-box {
+                flex-direction: column;
+            }
+
+            .product {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">MobileStore</div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Mobiles</a>
+            <a href="#">Offers</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="search">
+        <input type="text" placeholder="Search for mobiles...">
+    </div>
+
+    <section class="banner">
+        <h1>Latest Smartphones</h1>
+        <p>Discover the latest mobiles at the best prices</p>
+    </section>
+
+    <section class="categories">
+        <h2>Shop By Category</h2>
+
+        <div class="category-box">
+            <div class="category">
+                <h3>Apple</h3>
+                <p>iPhone Series</p>
+            </div>
+
+            <div class="category">
+                <h3>Samsung</h3>
+                <p>Galaxy Series</p>
+            </div>
+
+            <div class="category">
+                <h3>OnePlus</h3>
+                <p>Premium Phones</p>
+            </div>
+
+            <div class="category">
+                <h3>Budget</h3>
+                <p>Under ₹20,000</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Popular Mobiles</h2>
+
+        <div class="product-container">
+
+            <div class="product">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTpQOtCyk_J5ySdgUcUimu-1CHdhXx3RekoHRzxInIV9CcJcfQMpqnKl_nmC8d0rOThmYdp8u9FYQwZ5-_uUOLZSe5COdDJtr0NCVU&usqp=CAc" alt="Mobile">
+                <h3>iPhone 15</h3>
+                <p>128GB Storage</p>
+                <div class="price">₹69,999</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRJbp_WEBcvSHvuBOXga-eJn7MTaHzY5d-7VJxdhuamH0yTHVdle8JFZxAw6zxzrVexuLIqu8ynOlFxQpnMBayeZqM2TNPkzWURa_eerTSMYHnnwOADNkQNyvHv0on_iq5fPuJ6eA&usqp=CAc" alt="Mobile">
+                <h3>Samsung Galaxy S24</h3>
+                <p>256GB Storage</p>
+                <div class="price">₹74,999</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaksx_8KULkNbZRxILFOZJ_xr6tNS8pYj19rNfkVl9Vw&s=10" alt="Mobile">
+                <h3>OnePlus 13</h3>
+                <p>256GB Storage</p>
+                <div class="price">₹59,999</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="data:image/webp;base64,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" alt="Mobile">
+                <h3>Redmi Note 14</h3>
+                <p>128GB Storage</p>
+                <div class="price">₹18,999</div>
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 MobileStore. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
