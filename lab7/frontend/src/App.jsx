@@ -10,12 +10,13 @@ function Book(){
   return(
     <div>
       <img
-        src="https://m.media-amazon.com/images/I/41QOkKdG-GL._SX342_SY445_FMwebp_.jpg"
-        alt="React Book"
+        src={b1.picUrl}
+        alt={b1.bname}
       />
-      <h1>Lets Us React</h1>
-      <h2>Price: 765.00</h2>
-      <h3>Quantity: 5</h3>
+      <h1>{b1.bname}</h1>
+      <h2>Price: {b1.price}</h2>
+      <h3>Quantity: {b1.quantity}</h3>
+      <h4>Rating: {b1.rating}</h4>
     </div>
   );
 }
