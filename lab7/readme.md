@@ -23,3 +23,11 @@
 2. It must start with capital letter
 3. It should be treated as html tag
 4. It must be closed
+
+# Object Destructor
+const{bname, price, quantity, rating, picUrl} = props.book;
+1. does not depend on order, if property is not available then it inizialized with null
+2. any component include style : 
+   a. external css = create class in index.css and use in component 
+   b. internal css =  create property as object, then apply with style attributes
+   c. inline css =  in this method we use two curly bracket with style attribute all the css property must be singlr word for       example text-align becomes textAlign
